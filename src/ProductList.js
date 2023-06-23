@@ -19,7 +19,7 @@ export default function ProductList() {
   return (
     //React Fragment簡寫
     <>
-      <Title mainTitle="React入門水果店" />
+      <Title mainTitle="React水果店" />
 
       <div className="container">
         {productList.map((product) => (
